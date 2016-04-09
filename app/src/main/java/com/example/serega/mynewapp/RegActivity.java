@@ -80,11 +80,13 @@ public class RegActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
+    /*
         if (id == R.id.action_register) {
             Intent intent = new Intent(this, RegActivity.class);
             startActivity(intent);
             return true;
         }
+        */
 
         if(id == R.id.action_login){
             Intent intent = new Intent(this, main.class);
@@ -93,6 +95,7 @@ public class RegActivity extends AppCompatActivity {
         }
 
         if(id == R.id.action_exit){
+            finish();
             return true;
         }
 
