@@ -81,11 +81,13 @@ public class main extends AppCompatActivity {
             return true;
         }
 
+        /*
         if(id == R.id.action_login){
             Intent intent = new Intent(this, main.class);
             startActivity(intent);
             return true;
         }
+        */
 
         if(id == R.id.action_exit){
             finish();
